@@ -44,5 +44,16 @@ public class Main {
 }
 ```
 
+### Execution Output :
+```
+Main Application: Waiting for services to start...
+Thread-0 Database Service is starting...
+Thread-2 Message Queue Service is starting...
+Thread-1 Cache Service is starting...
+Thread-1 Cache Service is up and running.
+Thread-0 Database Service is up and running.
+Thread-2 Message Queue Service is up and running.
+Main Application: All services are up. Starting the application...
+```
 # References :
 https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CountDownLatch.html
